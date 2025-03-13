@@ -1,4 +1,6 @@
-﻿Console.Title = "Game of Sticks";
+﻿using System.Numerics;
+
+Console.Title = "Game of Sticks";
 
 //1. Explain the rules of the game of sticks.
 // Rules: Players will take turns choosing at least 1
@@ -18,12 +20,35 @@
 //9. If the current player is player 1, set current player to be player 2; 
 //otherwise set current player to be player 1. 
 //10. If the number of sticks left is equal to 0, 
-//then print that the current player won; otherwise, go back to step 4. 
+//then print that the current player won; otherwise, go back to step 4.
 Console.WriteLine("Welcome to Sticks. Where you Picks your Sticks. Last stick loses.");
 Console.Write("Rule 1. Take turns. " +
-    "Rule 2. Each player choose 1, 2, or 3 sticks on " +
+    "Rule 2. Each player chooses 1, 2, or 3 sticks on " +
     "their turn until the sticks are gone." +
-    "Rule 3. Who picks the last stick loses.");
+    " Rule 3. Who picks the last stick loses.");
 
-Console.WriteLine("Player 1, press any key when you're ready to begin.");
+string name1;
+Console.WriteLine("Player 1, please enter your name? ");
+name1 = Console.ReadLine();
+
+string name2;
+Console.WriteLine("Player 2, please enter your name? ");
+name2 = Console.ReadLine();
+
+Console.WriteLine(name1 + " press any key when you're ready to begin.");
 Console.ReadKey();
+
+Console.WriteLine("Starting with 20 Sticks");
+
+Console.WriteLine(name1 + ", How many sticks do you choose? 1, 2, or 3.");
+//string maxSticks 
+// = Console.ReadLine();
+
+//the player chooses 1, 2 or 3, which is subtracted from sticksLeft WE GONNA DECREMENT THE OPERATORS. 
+//I also need to work on updating the variables.  ie: int leftSticks = 20 leftSticks=leftSticks - 1, 2, or 3. Same thing? 
+//maxSticks
+//leftSticks
+//selectedSticks
+
+
+
