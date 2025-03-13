@@ -41,14 +41,19 @@ Console.ReadKey();
 Console.WriteLine("Starting with 20 Sticks");
 
 Console.WriteLine(name1 + ", How many sticks do you choose? 1, 2, or 3.");
+
+//There is an if then loop here somewhere, or if while.... 
 //string maxSticks 
 // = Console.ReadLine();
 
 //the player chooses 1, 2 or 3, which is subtracted from sticksLeft WE GONNA DECREMENT THE OPERATORS. 
 //I also need to work on updating the variables.  ie: int leftSticks = 20 leftSticks=leftSticks - 1, 2, or 3. Same thing? 
-//maxSticks
-//leftSticks
-//selectedSticks
+//maxSticks is the most they can choose. 
+//leftSticks is what they are pulling from 
+//selectedSticks is the choice of the players
+//Are these the variables or the ints? 
+//Formatting is the least of my concerns. But the formatting isn't awesome. 
+//sticksLeft< maxSticks True maxSticks =sticksLeft true then get sticks from player
 
 
 
